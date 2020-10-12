@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(181, 194, 196);
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+}
+
+h1 {
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    border: 3px solid #777;
+    font-size: 1.8em;
+}
+
+h2 {
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+    font-size: 1.5em;
+    color: black;
+}
+
+h3 {
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+    font-size: 1.2em;
+}
+
+h4 {
+    padding: 0px;
+    margin: 20px 0px 0px 0px;
+    font-size: 1em;
+}
+
+hr {
+    margin: 2px 0px 0px 0px;
+    height: 2px;
+    border-width: 0;
+    color: #bbb;
+    background-color: #bbb;
+}
+
+
+.sample {
+    border: 2px dotted lightgrey;
+    padding: 10px;
+}
+
+.answer {
+    border: 2px solid lightgrey;
+    margin: 20px 0px;
+    padding: 10px;
+}
+
+.nb {
+    font-size: 0.75em;
+    color: #888
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.95em;
+}
+
+text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.70em;
+}
+
+div.commands {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.95em;
+    font-weight: bold;
+    text-align: center;
+    cursor: default;
+    user-select: none;
+}
+
+svg {
+    display: block;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.bar {
+    fill: rgb(233, 137, 137);
+}
+
+text.xlabel {
+    text-anchor: middle;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.95em;
+}
+
+text.ylabel {
+    text-anchor: middle;
+    alignment-baseline: central;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.95em;
+}
+
+text.name {
+    font-weight: bold;
+    text-anchor: middle;
+    alignment-baseline: central;
+}
+
+.sort {
+    border-radius: 3px;
+    background-color: blueviolet;
+    display: inline-block;
+    cursor: default;
+}
+
+.sort,
+label {
+    font-family: 'Times New Roman', Times, serif;
+    color: #444;
+    padding: 5px;
+    margin: 5px;
+}
+
+label {
+    vertical-align: text-bottom;
+}
+
+.filter {
+    border-radius: 3px;
+    background-color: whitesmoke;
+    padding: 5px;
+    margin: 5px;
+    color: #444;
+    text-align: left;
+    display: inline-block;
+    cursor: default;
+}

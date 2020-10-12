@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>DSCI 554 Assignment 6</title>
+    <link rel="stylesheet" href="stylea6.css">
+    <link rel="stylesheet" href="../node_modules/highlightjs/styles/github.css">
+    <script src="../node_modules/highlightjs/highlight.pack.min.js"></script>
+    <script src="../node_modules/d3/dist/d3.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="indo.js"> </script>
+    <h1>DSCI 554 Assignment 6</h1>
+</head>
+
+<body>
+    <div><h4>Pratishtha Singh <a href="mailto:username@usc.edu">pratisht@usc.edu</a></h4></div>
+    <div class="answer">
+		<p>
+            I have chosen the 'CO2 Emissions Estimates' Dataset from the <a href="http://data.un.org">UN Data</a>. website. 
+            This dataset contains the carbon emissions (thousand metric tons of carbon dioxide) and 
+            emissions per capita (metric tons of carbon dioxide). 
+            I have first cleaned the dataset and used just the essential information. 
+            The dataset contains just the 10 countries and their carbon dioxide emissions 
+            (thousand metric tons of carbon dioxide) in the year 1995.
+            For this exercise I have chosen 10 countries and analysed the per capita emissions.
+        </p>
+        <p>
+            The link to my google sheet is <a href="https://docs.google.com/spreadsheets/d/1DcoNZL88XLywPAfApKhbS_U3ITqHOtvyxtDOCFuUX9A/edit?usp=sharing">here</a>.
+        </p>
+
+        <p>
+            These are the 10 countries I have picked:
+            <ol>
+                <li>Afghanistan</li>
+                <li>China</li>
+                <li>Germany</li>
+                <li>Haiti</li>
+                <li>India</li>
+                <li>Kazakhstan</li>
+                <li>Madagascar</li>
+                <li>Switzerland</li>
+                <li>United Kingdom</li>
+                <li>United States of America</li>
+            </ol>
+        </p>
+    </div>
+
+    <!-- <h3 align= "center">Co2 Emissions in 1995</h3> -->
+
+    <div class="commands">
+        <span class="initial-state" id="reset">RESET</span>
+    </div>
+
+    <div class="commands">
+        <span class="filter" id="all">all</span>
+        <span class="filter" id="top5">Top 5 emission countries</span>
+        <span class="filter" id="bottom5">Bottom 5 emission countries</span>
+        <!-- <label><input style="margin: 0 5px 0 0" type="checkbox" checked>USA</label> -->
+    </div>
+
+    <div class="commands">
+        <span class="sort" id="alphabetic">Order by Country</span>
+        <span class="sort" id="ascending">Order by Value(ascending)</span>
+        <span class="sort" id="descending">Order by Value(descending)</span>
+    </div>
+
+    <div id="chart"></div>
+    <script src="node_modules/d3/dist/d3.min.js"></script>
+    <script src="indo.js"></script>
+
+    
+
+    
+</body>
+
+</html>
